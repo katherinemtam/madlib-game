@@ -35,7 +35,8 @@ const output11 = document.getElementById("output-11");
 
 
 button.addEventListener("click", () => {
-     output1.textContent = input1.value;
+    
+    output1.textContent = input1.value;
      output2.textContent = input2.value;
      output3.textContent = input3.value;
      output4.textContent = input4.value;
@@ -46,4 +47,11 @@ button.addEventListener("click", () => {
      output9.textContent = input9.value;
      output10.textContent = input10.value;
      output11.textContent = input11.value;
+
+
+const lyrics = document.getElementById("lyrics");
+lyrics.classList.toggle("lyrics")
+
+
+
 })
