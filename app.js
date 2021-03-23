@@ -15,11 +15,7 @@ const input9 = document.getElementById("input-9");
 const input10 = document.getElementById("input-10");
 const input11 = document.getElementById("input-11");
 
-
-
-
 const button = document.getElementById("button")
-
 
 const output1 = document.getElementById("output-1");
 const output2 = document.getElementById("output-2");
@@ -32,7 +28,6 @@ const output8 = document.getElementById("output-8");
 const output9 = document.getElementById("output-9");
 const output10 = document.getElementById("output-10");
 const output11 = document.getElementById("output-11");
-
 
 button.addEventListener("click", () => {
     
@@ -48,10 +43,6 @@ button.addEventListener("click", () => {
      output10.textContent = input10.value;
      output11.textContent = input11.value;
 
-
-const lyrics = document.getElementById("lyrics");
-lyrics.classList.toggle("lyrics")
-
-
-
+    const lyrics = document.getElementById("lyrics");
+    lyrics.classList.toggle("lyrics")
 })
