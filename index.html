@@ -9,25 +9,23 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="assets/big-logo.png"/>
-        </div>
+        <h1>Monster Mash Madlibs</h1>
     </header>
     <main>
-        <h1>Monster Mash Madlibs</h1>
         <h2> Instructions: Fill the inputs with the types of words displayed.</h2>
+        <div class="slime"></div>
     </main>
-
-    <section id="inputs">
-
+    <section id="inputs" class="inputs">
         <input id="input-1" placeholder="VERB"/>
-        <input id="input-2" placeholder="ADJECTIVE"/>
-        <input id="input-3" placeholder="NOUN"/>
+        <input id="input-2" placeholder="NOUN"/>
+        <input id="input-3" placeholder="ADJECTIVE"/>
         <input id="input-4" placeholder="NOUN"/>
         <input id="input-5" placeholder="VERB"/>
         <input id="input-6" placeholder="NOUN"/>
@@ -36,9 +34,9 @@
         <input id="input-9" placeholder="NOUN"/>
         <input id="input-10" placeholder="PLURAL MONSTER"/>
         <input id="input-11" placeholder="PLURAL NOUN"/>
-        <button id='button'>Do the mash!</button>
+        <br>
+        <button id='button'>DO THE MASH!!!</button>
     </section>
-
     <section id="lyrics" class="lyrics">
         <p>
             I was <span id="output-1">VERB</span> in the lab, late one <span id="output-2">NOUN</span>
@@ -65,19 +63,10 @@
             <br>
             To get a jolt from my <span id="output-11">PLURAL NOUN</span>
         </p>
-
-
     </section>
-
-    
-
-
-
-
     <footer>
         <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
     </footer>
-
     <script type="module" src="app.js"></script>
 </body>
 
