@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/home.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Monster Mash Madlibs</title>
 </head>
 
 <body>
@@ -23,25 +23,27 @@
         <div class="slime"></div>
     </main>
     <section id="inputs" class="inputs">
-        <input id="input-1" placeholder="VERB"/>
-        <input id="input-2" placeholder="NOUN"/>
-        <input id="input-3" placeholder="ADJECTIVE"/>
-        <input id="input-4" placeholder="NOUN"/>
-        <input id="input-5" placeholder="VERB"/>
-        <input id="input-6" placeholder="NOUN"/>
-        <input id="input-7" placeholder="ADJECTIVE"/>
-        <input id="input-8" placeholder="NOUN"/>
-        <input id="input-9" placeholder="NOUN"/>
-        <input id="input-10" placeholder="PLURAL MONSTER"/>
-        <input id="input-11" placeholder="PLURAL NOUN"/>
-        <br>
+        <form name="main-form">
+            <input id="input-1" placeholder="-ING VERB" required/>
+            <input id="input-2" placeholder="NOUN" required/>
+            <input id="input-3" placeholder="ADJECTIVE" required/>
+            <input id="input-4" placeholder="NOUN" required/>
+            <input id="input-5" placeholder="VERB" required/>
+            <input id="input-6" placeholder="NOUN" required/>
+            <input id="input-7" placeholder="ADJECTIVE" required/>
+            <input id="input-8" placeholder="NOUN" required/>
+            <input id="input-9" placeholder="NOUN" required/>
+            <input id="input-10" placeholder="PLURAL MONSTER" required/>
+            <input id="input-11" placeholder="PLURAL NOUN"required/>
+            <br>
+        </form>
         <button id='button'>DO THE MASH!!!</button>
     </section>
     <section id="lyrics" class="lyrics">
         <p>
             I was <span id="output-1">VERB</span> in the lab, late one <span id="output-2">NOUN</span>
             <br>       
-            When my eyes beheld an <span id="output-3">ADJECTIVE</span> sight
+            When my eyes beheld a <span id="output-3">ADJECTIVE</span> sight
             <br>
             For my monster from his <span id="output-4">NOUN</span>, began to <span id="output-5">VERB</span>
             <br>
